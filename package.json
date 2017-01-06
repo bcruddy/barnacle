@@ -1,0 +1,24 @@
+{
+  "name": "barnacle",
+  "version": "0.0.1",
+  "description": "web scraping with cheerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bcruddy/barnacle.git"
+  },
+  "author": "@bcruddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcruddy/barnacle/issues"
+  },
+  "homepage": "https://github.com/bcruddy/barnacle#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
+  }
+}
